@@ -1,0 +1,29 @@
+.name {
+    background-color: lightskyblue;
+}
+
+.hex {
+    background-color: #FFCA99;
+}
+
+.rgb {
+    background-color: rgb(214, 239, 147);
+}
+
+.rgba {
+    background-color: rgba(214, 239, 147, 0.4);
+}
+
+.hsl {
+    background-color: hsl(297, 100%, 84%);
+}
+
+.hsla {
+    background-color: hsla(297, 100%, 84%, 0.4);
+}
+
+/*Los canales alpha permiten transparencia con las imágenes de fondo*/
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/19/15/05/computer-1149148_1280.jpg);
+}
+
