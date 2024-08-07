@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/mario.png">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Vídeo y audio</h1>
+    <audio controls autoplay muted loop>
+        <source src="doc/audio.mp3" type="audio/mp3">
+        <!-- Se pueden añadir otros formatos para el mismo audio; si el navegador no acepta uno de ellos usa otro -->
+        El navegador no puede reproducir el audio.
+    </audio>
+
+    <!-- Otra forma más simple es con solo audio -->
+
+    <audio src="doc/audio.mp3" type="audio/mp3" controls></audio>
+
+    <!-- Con el vídeo se puede hacer lo mismo -->
+
+    <video src="doc/video_medusa.mp4" type="video/mp4" width="50%" autoplay controls>El navegador no puede reproducir el vídeo.</video>
+
+    <br><br>
+
+    <h2>Iframe</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/60ItHLz5WEA?si=pb57BO17YwDgDkX9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
