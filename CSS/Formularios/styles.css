@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CCD5AE;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+h1 {
+    padding-top: 1.5em;
+    padding-bottom: 0.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+input[type=radio]:checked + label{
+    background-color: #FAEDCE;
+    color:#ffc847;
+}
+
+input[type=radio]:checked {
+    box-shadow: 0 0 0 0.1em #FEFAE0;
+    margin-left: 0.3em;
+}
+
+input[type=text]:enabled {
+    background-color: #FAEDCE;
+}
+
+input[type=text]:focus {
+    height: 2em;
+}
+
+input[type=number]:in-range {
+    background-color: #FAEDCE;
+}
+
+input[type=number]:out-of-range {
+    background-color: #FAEDCE;
+    border: 0.2em solid #ff6932;
+}
+
+input[type=email]:valid{
+    background-color: #FAEDCE;
+}
+
+input[type=email]:invalid{
+    background-color: #FAEDCE;
+    border: 0.2em solid #ff6932;
+}
+
+input:required {
+    border: 0.2em solid #000000;
+}
+
+input:read-only {
+    background-color: #919191;
+}

@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color: rgba(255, 212, 142, 0.775);
+}
+
+h1 {
+    background-color: darksalmon;
+    text-align: center;
+    padding-top: 0.5em;
+    padding-bottom: 0.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1em;
+}
+
+.container {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    list-style-position: inside;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.container p {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.container ul {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+.container ol {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+/*Pseudoelements*/
+
+h1::before {
+    content: "⭐";
+}
+
+h1::after {
+    content: "⭐";
+}
+
+p::first-letter {
+    font-size: 3em;
+}
+
+p::first-line {
+    font-style: italic;
+}
+
+p::selection {
+    background-color: darksalmon;
+}
+
+ol li::marker {
+    color: darksalmon;
+}
+
+ul li::marker {
+    color: darksalmon;
+}

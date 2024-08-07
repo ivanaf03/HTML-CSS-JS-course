@@ -1,0 +1,120 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: burlywood;
+}
+
+.container {
+    background-color: dodgerblue;
+    margin: 0.25em;
+    margin-bottom: 1em;
+}
+
+.container2 {
+    background-color: dodgerblue;
+    margin: 0.25em;
+    margin-bottom: 1em;
+}
+
+.container3 {
+    background-color: dodgerblue;
+    margin: 0.25em;
+    margin-bottom: 1em;
+}
+
+.container4 {
+    background-color: dodgerblue;
+    margin: 0.25em;
+    margin-bottom: 1em;
+}
+
+.container5 {
+    background-color: dodgerblue;
+    margin: 0.25em;
+    margin-bottom: 1em;
+}
+
+.items{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    background-color: antiquewhite;
+    border: 0.02em solid;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%; /*2 columns, 50% horizontal size*/
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+}
+
+.container2 {
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /*screen is divided in 4 fr, 1-2-1*/
+}
+
+.container3 {
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.item11 {
+    grid-column-start: 1;
+    grid-column-end: 4; /*size: 3fr*/
+}
+
+.item15 {
+    grid-column: 1/4; /*size: 3fr*/
+}
+
+.item16 {
+    grid-area: 2/5/2/7; /*r start, c start, r end, c end*/
+}
+
+/*responsive*/
+.container4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20em, 1fr));
+    column-gap: 0.2em;
+    row-gap: 0.2em;
+}
+
+.container5 {
+    display: grid;
+    grid-template-areas: 
+    'header header header article'
+    'sidemenu main main article'
+    'sidemenu main main article'
+    'footer footer footer footer'
+    ;
+}
+
+.item31 {
+    grid-area: header;
+}
+
+.item32 {
+    grid-area:article;
+}
+
+.item33 {
+    grid-area: sidemenu;
+}
+
+.item34 {
+    grid-area: main;
+}
+
+.item35 {
+    grid-area: footer;
+}

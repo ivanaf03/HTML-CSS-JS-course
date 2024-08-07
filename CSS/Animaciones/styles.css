@@ -1,0 +1,31 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: burlywood;
+    border: 0.1em solid black;
+    position: absolute;
+    top: 3em;
+    left: 3em;
+    width: 10em;
+    height: 10em;
+    animation-name: change_color;
+    animation-duration: 3000ms;
+    animation-delay: 1000ms;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+    animation-fill-mode: backwards;
+    /*Con animation se puede poner más de una, separadas entre comas (por ejemplo, animation: change_color1 2000ms forward, change_color2 1000ms backward;*/
+}
+
+@keyframes change_color {
+    0%{background-color: burlywood;}
+    100%{
+        background-color: rgb(159, 121, 26);
+        width: 30em;
+    }
+}

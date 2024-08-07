@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background-color:antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+}
+
+ul {
+    margin-left: 15em;
+    margin-right: 15em;
+    text-align: center;
+    align-items: center;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    list-style-position: inside;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+li {
+    padding: 0.2em;
+}
+
+li:first-child {
+    margin-top: 1em;
+}
+
+li:last-child {
+    margin-bottom: 1em;
+}
+
+li:nth-child(2n) {
+    color:rgb(102, 168, 255);
+}
+
+li:nth-last-child(2n) {
+    color:rgb(45, 136, 255);
+}
+
+.container {
+    margin-top: 6em;
+    margin-left: 5em;
+    margin-right: 5em;
+    text-align: center;
+    align-items: center;
+    border: 0.1em solid black;
+    border-radius: 1.5em;
+    list-style-position: inside;
+}
+
+.container p {
+    padding: 0.2em;
+}
+
+.container a {
+    padding: 0.2em;
+}
+
+p:first-child {
+    padding-top: 1em;
+}
+
+p:last-of-type {
+    padding-bottom: 1em;
+}
+
+p::before {
+    content: "🐺";
+}

@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+}
+
+/*Menu*/
+body {
+    background-color: antiquewhite;
+    font-family: "Lobster", sans-serif;
+}
+
+.menu {
+    background-color: burlywood;
+    text-align: left;
+}
+
+.menu a {
+    color: mintcream;
+    padding: 0 2% 0 2%;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: black;
+}
+
+.menu a.active {
+    background-color: goldenrod;
+    color: black;
+}
+
+/*Social*/
+.social {
+    margin: 5% 0;
+    text-align: center;
+}
+
+.social a {
+    padding: 0 0.5%;
+    color: black;
+}
+
+.social a:hover {
+    color: goldenrod;
+}
+
+/*Botón*/
+.button a{
+    text-decoration: none;
+    color: white;
+    background-color: goldenrod;
+    padding: 1%;
+    border-radius: 1em;
+    margin-left: 2%
+}

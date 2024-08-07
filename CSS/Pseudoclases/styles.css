@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+ul {
+    margin-top: 0.5em;
+    margin-left: 2em;
+}
+
+/*LINK. VISITED. HOVER. ACTIVE.*/
+/* remember: LoVe, HAte */
+
+a:link {
+    color: lightblue;
+}
+
+a:visited {
+    color: lightseagreen;
+}
+
+a:hover {
+    background-color: blanchedalmond;
+}
+
+a:active {
+    background-color: goldenrod;
+}

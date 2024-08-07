@@ -1,0 +1,30 @@
+body {
+    font-size: 30px;
+}
+
+.pixel {
+    font-size: 30px;
+    background-color: aquamarine;
+    width: 500px;
+}
+
+/*Es el doble del contenedor*/
+.percent {
+    font-size: 200%;
+    background-color: aquamarine;
+    width: 50%;
+}
+
+/* 1 em es el valor del contenedor*/
+.medida_em {
+    font-size: 1em;
+    background-color: aquamarine;
+    width: 1em;
+}
+
+/* 1 rem es el valor del root (16px) */
+.medida_rem {
+    font-size: 1rem;
+    background-color: aquamarine;
+    width: 1rem;
+}

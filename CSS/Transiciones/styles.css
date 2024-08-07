@@ -1,0 +1,47 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    border: 0.25em solid black;
+    height: 20em;
+    width: 50%;
+    background-color: antiquewhite;
+
+    transition-property: background-color, height;
+    transition-duration: 4000ms, 3000ms;
+    transition-timing-function: cubic-bezier(0, 1.49, 0.68, -0.69);
+}
+
+.contenedor:hover {
+    background-color: rgb(223, 133, 70);
+    height: 30em;
+    width: 50%;
+}
+
+.barra {
+    border: 0.25em solid black;
+    margin-top: 1em;
+    border-radius: 2em;
+    overflow: hidden;
+    height: 4em;
+}
+
+.progreso {
+    height: 100%;
+    width: 10%;
+    background-color: aquamarine;
+    transition: width 2000ms ease-out;
+    display: flex;
+    align-items: center;
+}
+
+.progreso:hover {
+    width: 100%;
+}
+
+.progreso p {
+    margin-left: 1em;
+}

@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 1.1em;
+}
+
+body {
+    background-color: blueviolet;
+    align-items: center;
+    text-align: center;
+}
+
+.padre {
+    background-color: aliceblue;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 2%;
+    height: 15em;
+    display: flex;
+    justify-content: space-evenly; /*default flex-start*/
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hijo1 {
+    align-self: flex-start;
+    background-color: lightblue;
+    color: darksalmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hijo2 {
+    flex-grow: 1;
+    align-self: center;
+    background-color: lightblue;
+    color: darksalmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hijo3 {
+    flex-basis: 25%;
+    align-self: flex-end;
+    background-color: lightblue;
+    color: darksalmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hijo4 {
+    background-color: lightblue;
+    color: darksalmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hijo5 {
+    order: 2;
+    background-color: lightblue;
+    color: darksalmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hijo6 {
+    order: 1;
+    background-color: lightblue;
+    color: darksalmon;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

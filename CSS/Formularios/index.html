@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>FORMULARIOS</h1>
+
+    <form action="">
+        <input type="text" placeholder="Nombre:"><br><br>
+        <input type="text" placeholder="Nacionalidad:" disabled><br><br>
+
+        <fieldset>
+            <legend>Selecciona un color</legend>            
+            <input id="red" name="color" value="red" type="radio">
+            <label for="red">Rojo</label>
+            <br>
+            <input id="blue" name="color" value="blue" type="radio">
+            <label for="blue">Azul</label>
+            <br>
+            <input id="yellow" name="color" value="yellow" type="radio">
+            <label for="yellow">Amarillo</label>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Selecciona un color</legend>            
+            <input id="red1" name="color1" value="red" type="radio">
+            <label for="red1">Rojo</label>
+            <br>
+            <input id="blue1" name="color2" value="blue" type="radio">
+            <label for="blue1">Azul</label>
+            <br>
+            <input id="yellow1" name="color3" value="yellow" type="radio">
+            <label for="yellow1">Amarillo</label>
+        </fieldset>
+        
+
+        <br><br>
+
+        <input type="number" min="0" max="10"><span>Número entre 0 y 10</span>
+        <br>
+        <input type="email" value="example@gmail.com"><br><br>
+
+        <input placeholder="optional">
+        <br>
+        <input placeholder="required" required>
+
+        <br><br>
+
+        <input placeholder="modifiable">
+        <br>
+        <input placeholder="not modifiable" readonly>
+    </form>
+</body>
+</html>

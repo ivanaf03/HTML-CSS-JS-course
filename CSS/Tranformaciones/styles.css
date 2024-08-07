@@ -1,0 +1,51 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:sandybrown;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    height: 100vh;
+    z-index: -1;
+}
+
+.backbox {
+    height: 10em;
+    width: 10em;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    background-color:blanchedalmond;
+    box-shadow: 5px 5px 5px black;
+    z-index: -1;
+}
+
+.box {
+    height: 10em;
+    width: 10em;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    text-align: center;
+    border: 0.1em solid black;
+    border-radius: 0.25em;
+    transition: transform 350ms;
+    transform-origin: top left;
+}
+
+.box:hover {
+    /*transform: translate(1em, -1em);*/
+    /* transform: rotate(45deg); */
+    /* transform: scale(1.5); */
+    /* transform: skew(45deg); */
+    /* transform: matrix(1.5, 0.45, 0.45, 0, 0, 0); */
+    transform: rotateZ(45deg);
+}
