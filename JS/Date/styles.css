@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    padding: 2em;
+}
+
+h1 {
+    background: linear-gradient(90deg, rgba(117,255,144,0.8644578313253012) 0%, rgba(133,192,255,1) 53%, rgba(117,255,144,1) 100%);
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0.2em 0.1em 0.2em rgb(0, 9, 131);
+    font-style: italic;
+    padding: 0.3em;
+}
+
+.container {
+    background: lightcyan;
+    margin-bottom: 1em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0.3em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
